@@ -1,8 +1,8 @@
-interface PostTitleProps {
+interface TextBlockProps {
   text: any;
 }
 
-const PostTitle = ({ text }: PostTitleProps) => {
+const TextBlock = ({ text }: TextBlockProps) => {
   if (!text) {
     return null;
   }
@@ -30,4 +30,4 @@ const PostTitle = ({ text }: PostTitleProps) => {
   });
 };
 
-export default PostTitle;
+export default TextBlock;

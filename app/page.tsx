@@ -5,7 +5,6 @@ const databaseId = process.env.NOTION_DATABASE_ID;
 
 export default async function Home() {
   const posts = await getDatabase();
-  console.log("file: page.tsx:5 ~ Home ~ posts:", posts);
 
   return (
     <div>

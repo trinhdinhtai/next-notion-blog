@@ -1,4 +1,4 @@
-import PostTitle from "@/components/PostTitle";
+import TextBlock from "@/components/TextBlock";
 import Link from "next/link";
 
 interface PostProp {
@@ -16,7 +16,7 @@ const Post = ({ post }: PostProp) => {
     <div>
       <h3 className="mb-2">
         <Link href={`/${post.id}`}>
-          <PostTitle text={post.properties.Name.title} />
+          <TextBlock text={post.properties.Name.title} />
         </Link>
 
         <p className="mb-3">{date}</p>
