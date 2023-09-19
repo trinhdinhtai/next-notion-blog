@@ -17,6 +17,7 @@ const PostIdPage = async ({ params }: PostIdPageProps) => {
   return (
     <article className="py-4 max-w-3xl mx-auto whitespace-pre-line leading-6">
       <h1 className="text-3xl font-bold my-4">
+        {/* @ts-ignore */}
         <TextBlock text={page?.properties?.Name.title} />
       </h1>
 
