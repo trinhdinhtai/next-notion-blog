@@ -1,5 +1,4 @@
 import { Client } from "@notionhq/client";
-import { GetPageResponse } from "@notionhq/client/build/src/api-endpoints";
 
 const notionSecret = process.env.NOTION_SECRET;
 const notionDatabaseId = process.env.NOTION_DATABASE_ID;

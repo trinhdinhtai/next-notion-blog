@@ -3,6 +3,8 @@ import { getDatabase } from "@/lib/notion";
 
 const databaseId = process.env.NOTION_DATABASE_ID;
 
+export const revalidate = 0;
+
 export default async function Home() {
   const posts = await getDatabase();
 
